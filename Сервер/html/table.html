@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+<html lang="ru" class="admin"> 
+
+	<head>	
+
+		<title>Просмотр таблицы</title> 	
+        <link rel="shortcut icon" href="images/favicon.ico" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+		<meta name="description" content="Страница таблицы"/>
+
+        <meta name=viewport content="width=device-width, initial-scale=1">
+
+        <meta http-equiv="Cache-Control" content="public"/>
+
+        <link rel="stylesheet" type="text/CSS" href="style.min.css" /> 
+
+        <link rel="stylesheet" type="text/CSS" href="css/upload.min.css" /> 
+
+        <script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+
+        <script type="text/javascript" src="js/scripts.min.js"></script>
+
+    </head>
+
+    <body>
+        <?php drowtables($id);?>
+           </div>
+
+    </body>
+
+     <div class = "overlay">
+
+             <div class="overlay_newfile table_newfile">
+
+                <div class="deletesign"></div>
+
+                <h2>Загрузите файлы таблицы:</h2>
+
+                    <form class="upload files" method="post" action="uploadxml.php" enctype="multipart/form-data">
+
+                    <div class="drop">
+
+                        <h4>Перетащите сюда</h4>
+
+
+
+                        <a>Обзор</a>
+
+                        <input type="file" name="upl" multiple />
+
+                        <input type="hidden" name="levelid" id = "levelid">
+
+                    </div>
+
+                    <div class="result_block">
+
+                         <ul>
+
+                        <!-- The file uploads will be shown here -->
+
+                        </ul>
+
+                    </div>
+
+                   
+
+
+
+                 </form>
+
+
+
+                     <button class="ok newfiletable_ok">OK</button>
+
+                
+
+               
+
+            </div>
+
+            <div class="opacity_block"></div>
+
+        </div>
+
+
+
+    <form action="scripts/newtable.php" id="newtable" name="newtable" method ="post">
+
+        <input type="hidden" id ="newnametable" name="newnametable">
+
+        <input type="hidden" id ="newrowcount" name="newrowcount">
+
+        <input type="hidden" id ="newrowname" name="newrowname">
+
+        <input type="hidden" id="newnametableidfield" name="newnametableidfield" value=<?php echo $id;?>>
+
+    </form>
+
+
+
+    <form action="scripts/deltable.php" id="deltable" name="deltable" method ="post">
+
+        <input type="hidden" id ="delnametable" name="delnametable">
+
+        <input type="hidden" id="delnametableidfield" name="delnametableidfield" value=<?php echo $id;?>>
+
+    </form>
+
+
+
+    <form action="scripts/newnametable.php" id="ntable" name="ntable" method ="post">
+
+        <input type="hidden" id ="nnametable" name="nnametable">
+
+        <input type="hidden" id ="nname" name="nname">
+
+        <input type="hidden" id="nnametableidfield" name="nnametableidfield" value=<?php echo $id;?>>
+
+    </form>
+
+
+
+     <form action="scripts/edrowname.php" id="edrownameform" name="edrownameform" method ="post">
+
+        <input type="hidden" id="edrowidtable" name="edrowidtable">
+
+        <input type="hidden" id ="edrowname" name="edrowname">
+
+        <input type="hidden" id ="edrowrow" name="edrowrow">
+
+        <input type="hidden" id="edrowidfield" name="edrowidfield" value=<?php echo $id;?>>
+
+    </form>
+
+    <form action="scripts/delrow.php" id="delrow" name="delrow" method ="post">
+
+        <input type="hidden" id="delrowidtable" name="delrowidtable">
+
+        <input type="hidden" id ="delrowrow" name="delrowrow">
+
+        <input type="hidden" id="delrowidfield" name="delrowidfield" value=<?php echo $id;?>>
+
+    </form>
+
+
+
+     <form action="scripts/newrow.php" id="newrow" name="newrow" method ="post">
+
+        <input type="hidden" id="newrowidtable" name="newrowidtable">
+
+        <input type="hidden" id ="newrowrowname" name="newrowrowname">
+
+        <input type="hidden" id="newrowidfield" name="newrowidfield" value=<?php echo $id;?>>
+
+    </form>
+
+
+
+    <form action="scripts/addline.php" id="addline" name="addline" method ="post">
+
+        <input type="hidden" id="addlineidtable" name="addlineidtable">
+
+        <input type="hidden" id ="addlinerowname" name="addlinerowname">
+
+        <input type="hidden" id="addlineidfield" name="addlineidfield" value=<?php echo $id;?>>
+
+    </form>
+
+
+
+    <form action="scripts/delline.php" id="delline" name="delline" method ="post">        
+
+        <input type="hidden" id ="dellineidline" name="dellineidline">
+
+        <input type="hidden" id="dellineidfield" name="dellineidfield" value=<?php echo $id;?>>
+
+    </form>
+
+
+
+    <form action="scripts/edline.php" id="edline" name="edline" method ="post">
+
+        <input type="hidden" id="edlineidtable" name="edlineidtable">
+
+        <input type="hidden" id ="edlinerow" name="edlinerow">
+
+        <input type="hidden" id ="edlinetext" name="edlinetext">
+
+        <input type="hidden" id="edlineidfield" name="edlineidfield" value=<?php echo $id;?>>
+
+    </form>
+
+          <script src="assets/js/jquery.knob.min.js"></script>
+
+
+
+        <!-- jQuery File Upload Dependencies -->
+
+        <script src="assets/js/jquery.ui.widget.min.js"></script>
+
+        <script src="assets/js/jquery.iframe-transport.min.js"></script>
+
+        <script src="assets/js/jquery.fileupload.min.js"></script>
+
+        
+
+        <!-- Our main JS file -->
+
+        <script src="assets/js/script.min.js"></script>
+
+
+        <script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter26097195 = new Ya.Metrika({id:26097195,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/26097195" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54551031-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+   
+
+</html>

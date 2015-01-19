@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2014-9-19: Created.
+-->
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>
+Created by FontForge 4792969 at Fri Sep 19 21:29:19 2014
+ By icons8
+Created by icons8 with FontForge 2.0 (http://fontforge.sf.net)
+</metadata>
+<defs>
+<font id="font_icons8" horiz-adv-x="512" >
+  <font-face 
+    font-family="font_icons8"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="512"
+    panose-1="2 0 6 9 0 0 0 0 0 0"
+    ascent="448"
+    descent="-64"
+    bbox="0 -64 739.556 448"
+    underline-thickness="25.6"
+    underline-position="-51.2"
+    unicode-range="U+F100-F101"
+  />
+    <missing-glyph />
+    <glyph glyph-name="uniF100" unicode="&#xf100;" 
+d="M0 163.556v56.8887h739.556v-56.8887h-739.556zM0 391.111v56.8887h739.556v-56.8887h-739.556zM0 -64v56.8887h739.556v-56.8887h-739.556z" />
+    <glyph glyph-name="uniF101" unicode="&#xf101;" 
+d="M480.399 -3.44043l-28.959 -28.959l-134.646 134.646c-28.6621 -20.7461 -63.7539 -33.126 -101.755 -33.126c-95.9902 0 -174.08 78.0898 -174.08 174.08c0 95.9893 78.0898 174.08 174.08 174.08c95.9893 0 174.08 -78.0908 174.08 -174.08
+c0 -43.2441 -15.9434 -82.7598 -42.1279 -113.234zM61.4404 243.2c0 -84.6953 68.9043 -153.601 153.6 -153.601s153.6 68.9053 153.6 153.601s-68.9043 153.6 -153.6 153.6s-153.6 -68.9043 -153.6 -153.6z" />
+  </font>
+</defs></svg>
