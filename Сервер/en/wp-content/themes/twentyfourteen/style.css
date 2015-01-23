@@ -1940,3 +1940,11 @@ font-size: 16px;
 .products .item p {
 	text-align: justify;
 }
+
+.bModal {
+	display: none!important;
+}
+
+.visas_style_div {
+	display: none!important;
+}
