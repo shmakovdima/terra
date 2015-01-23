@@ -2,13 +2,14 @@
 
 
 function bdconnect(){
-     $dbhost = "localhost"; 
+     $dbhost = "mysql7.000webhost.com"; 
         // Имя пользователя базы данных 
-        $dbuser = "u508952766_field"; 
+        $dbuser = "a6980670_terfiel"; 
         // и его пароль 
         $dbpass = "as210100"; 
         // Имя базы данных, на хостинге или локальной машине 
-    $dbname = "u508952766_field"; 
+    $dbname = "a6980670_terfiel"; 
+
 
     $db = @mysql_connect($dbhost, $dbuser, $dbpass) or die(mysql_error()); 
     if (!$db) { 
@@ -17,34 +18,16 @@ function bdconnect(){
     if (!@mysql_select_db($dbname, $db)) { 
         exit( "<P>База данных $dbname не доступна</P>" ); 
     }
+	@mysql_query('set character_set_client="utf8"');
+	@mysql_query('set character_set_results="utf8"');
+	@mysql_query('set collation_connection="utf8_general_ci"');
     return $db;
 }
 
 function drowinadminalltotables() {
-    ini_set('display_errors',1);
+   
 
-    error_reporting(E_ALL);
-
-    setlocale(LC_ALL, 'ru_RU.UTF-8');
-
-    mb_internal_encoding("UTF-8"); 
-       // Адрес сервера MySQL 
-    $dbhost = "a117669.mysql.mchost.ru"; 
-        // Имя пользователя базы данных 
-        $dbuser = "a117669_terfield"; 
-        // и его пароль 
-        $dbpass = "as210100"; 
-        // Имя базы данных, на хостинге или локальной машине 
-    $dbname = "a117669_terfield"; 
-
-    $db = @mysql_connect($dbhost, $dbuser, $dbpass) or die(mysql_error()); 
-    if (!$db) { 
-        exit ("<P>Сервер базы данных не доступен</P>" ); 
-    } 
-    if (!@mysql_select_db($dbname, $db)) { 
-        exit( "<P>База данных $dbname не доступна</P>" ); 
-    }
-
+	$db = bdconnect();
 
     echo "<span class = 'noclick'>Поля:</span>";
 
@@ -89,29 +72,7 @@ function drowinadminalltotables() {
 
 
 function drowsloi(){
-    ini_set('display_errors',1);
-
-    error_reporting(E_ALL);
-
-    setlocale(LC_ALL, 'ru_RU.UTF-8');
-
-    mb_internal_encoding("UTF-8"); 
-       // Адрес сервера MySQL 
-    $dbhost = "localhost"; 
-        // Имя пользователя базы данных 
-        $dbuser = "u508952766_field"; 
-        // и его пароль 
-        $dbpass = "as210100"; 
-        // Имя базы данных, на хостинге или локальной машине 
-    $dbname = "u508952766_field"; 
-
-    $db = @mysql_connect($dbhost, $dbuser, $dbpass); 
-    if (!$db) { 
-        exit ("<P>Сервер базы данных не доступен</P>" ); 
-    } 
-    if (!@mysql_select_db($dbname, $db)) { 
-        exit( "<P>База данных $dbname не доступна</P>" ); 
-    }
+   	$db = bdconnect();
 
     $searchitem=array();
 
@@ -321,29 +282,7 @@ function drowsloi(){
 
 function drowfield(){
 
-       ini_set('display_errors',1);
-
-    error_reporting(E_ALL);
-
-    setlocale(LC_ALL, 'ru_RU.UTF-8');
-
-    mb_internal_encoding("UTF-8"); 
-       // Адрес сервера MySQL 
-    $dbhost = "localhost"; 
-        // Имя пользователя базы данных 
-        $dbuser = "u508952766_field"; 
-        // и его пароль 
-        $dbpass = "as210100"; 
-        // Имя базы данных, на хостинге или локальной машине 
-    $dbname = "u508952766_field"; 
-
-    $db = @mysql_connect($dbhost, $dbuser, $dbpass); 
-    if (!$db) { 
-        exit ("<P>Сервер базы данных не доступен</P>" ); 
-    } 
-    if (!@mysql_select_db($dbname, $db)) { 
-        exit( "<P>База данных $dbname не доступна</P>" ); 
-    }
+     $db = bdconnect();
 
     $searchitem=array();
 
@@ -529,37 +468,7 @@ function drowfield(){
 
 function drowmark(){
 
-       // Адрес сервера MySQL 
-
-    $dbhost = "localhost"; 
-
-        // Имя пользователя базы данных 
-
-        $dbuser = "u508952766_field"; 
-
-        // и его пароль 
-
-        $dbpass = "as210100"; 
-
-        // Имя базы данных, на хостинге или локальной машине 
-
-    $dbname = "u508952766_field"; 
-
-
-
-    $db = @mysql_connect($dbhost, $dbuser, $dbpass); 
-
-    if (!$db) { 
-
-        exit ("<P>Сервер базы данных не доступен</P>" ); 
-
-    } 
-
-    if (!@mysql_select_db($dbname, $db)) { 
-
-        exit( "<P>База данных $dbname не доступна</P>" ); 
-
-    }
+     $db = bdconnect();
 
 
 
@@ -632,44 +541,7 @@ function drowroad(){
 
 
 
-    ini_set('display_errors',1);
-    error_reporting(E_ALL);
-    setlocale(LC_ALL, 'ru_RU.UTF-8');
-    mb_internal_encoding("UTF-8"); 
-
-
-
-       // Адрес сервера MySQL 
-
-    $dbhost = "localhost"; 
-
-        // Имя пользователя базы данных 
-
-        $dbuser = "u508952766_field"; 
-
-        // и его пароль 
-
-        $dbpass = "as210100"; 
-
-        // Имя базы данных, на хостинге или локальной машине 
-
-    $dbname = "u508952766_field"; 
-
-
-
-    $db = @mysql_connect($dbhost, $dbuser, $dbpass); 
-
-    if (!$db) { 
-
-        exit ("<P>Сервер базы данных не доступен</P>" ); 
-
-    } 
-
-    if (!@mysql_select_db($dbname, $db)) { 
-
-        exit( "<P>База данных $dbname не доступна</P>" ); 
-
-    }
+ $db = bdconnect();
 
 
 
@@ -815,65 +687,11 @@ function drowroad(){
 
 	function drowadmin(){
 
-
-
-
-
-        ini_set('display_errors',1);
-
-    error_reporting(E_ALL);
-
-    setlocale(LC_ALL, 'ru_RU.UTF-8');
-
-    mb_internal_encoding("UTF-8"); 
-
-
-
-		mb_internal_encoding("UTF-8"); 
-
-    	setlocale(LC_ALL, 'ru_RU.UTF-8');
-
    	    echo '<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />';
 
     
 
-    	ini_set('display_errors',1);
-
-
-
-    	error_reporting(E_ALL);  
-
-
-
-		// Адрес сервера MySQL 
-
-    	$dbhost = "localhost"; 
-
-        // Имя пользователя базы данных 
-
-        $dbuser = "u508952766_field"; 
-
-        // и его пароль 
-
-        $dbpass = "as210100"; 
-
-        // Имя базы данных, на хостинге или локальной машине 
-
-    	$dbname = "u508952766_field"; 
-
-    	$db = @mysql_connect($dbhost, $dbuser, $dbpass) or die(mysql_error()); 
-
-    	if (!$db) { 
-
-        	exit ("<P>Сервер базы данных не доступен</P>" ); 
-
-    	} 
-
-    	if (!@mysql_select_db($dbname, $db)) { 
-
-        	exit( "<P>База данных $dbname не доступна</P>" ); 
-
-    	}
+    	$db = bdconnect();
 
 
 
@@ -1361,45 +1179,7 @@ function drowtables($id) {
 
 
 
-    ini_set('display_errors',1);
-
-    error_reporting(E_ALL);
-
-    setlocale(LC_ALL, 'ru_RU.UTF-8');
-
-    mb_internal_encoding("UTF-8"); 
-
-         // Адрес сервера MySQL 
-
-    $dbhost = "localhost"; 
-
-        // Имя пользователя базы данных 
-
-    $dbuser = "u508952766_field"; 
-
-        // и его пароль 
-
-    $dbpass = "as210100"; 
-
-        // Имя базы данных, на хостинге или локальной машине 
-
-    $dbname = "u508952766_field"; 
-
-
-
-    $db = @mysql_connect($dbhost, $dbuser, $dbpass); 
-
-    if (!$db) { 
-
-        exit ("<P>Сервер базы данных не доступен</P>" ); 
-
-    } 
-
-    if (!@mysql_select_db($dbname, $db)) { 
-
-        exit( "<P>База данных $dbname не доступна</P>" ); 
-
-    }
+  $db = bdconnect();
     echo '  <div class="container">
 
              
@@ -1755,37 +1535,7 @@ function kmlparse($file, $idlevel){
 
 
 
-    // Адрес сервера MySQL 
-
-    $dbhost = "localhost"; 
-
-        // Имя пользователя базы данных 
-
-        $dbuser = "u508952766_field"; 
-
-        // и его пароль 
-
-        $dbpass = "as210100"; 
-
-        // Имя базы данных, на хостинге или локальной машине 
-
-    $dbname = "u508952766_field"; 
-
-
-
-    $db = @mysql_connect($dbhost, $dbuser, $dbpass); 
-
-    if (!$db) { 
-
-        exit ("<P>Сервер базы данных не доступен</P>" ); 
-
-    } 
-
-    if (!@mysql_select_db($dbname, $db)) { 
-
-        exit( "<P>База данных $dbname не доступна</P>" ); 
-
-    }
+    $db = bdconnect();
 
 
 

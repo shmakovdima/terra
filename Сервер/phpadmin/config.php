@@ -2,7 +2,7 @@
 // MySQL Dumper Configuration
 
 // Host-Adress, default 'localhost'
-$config['dbhost'] = 'localhost';
+$config['dbhost'] = 'mysql7.000webhost.com';
 // port - if empty, mysql uses default
 $config['dbport'] = '';
 // socket - if empty, mysql uses default
