@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WordPress package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress 4.0\n"
+"Project-Id-Version: WordPress 4.0.1\n"
 "Report-Msgid-Bugs-To: http://wppolyglots.wordpress.com\n"
-"POT-Creation-Date: 2014-09-03 23:21:36+00:00\n"
-"PO-Revision-Date: 2014-09-04 15:16+0400\n"
+"POT-Creation-Date: 2014-11-20 17:13:12+00:00\n"
+"PO-Revision-Date: 2014-11-20 22:53+0300\n"
 "Last-Translator: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
 "Language-Team: ru.wordpress.org <sergeybiryukov.ru@gmail.com>\n"
 "Language: ru_RU\n"
@@ -17,18 +17,18 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __;_e;_c;_x;__ngettext_noop:1,2;__ngettext:1,2\n"
 "X-Poedit-Basepath: S:\\home\\wordpress\\trunk\n"
-"X-Generator: Poedit 1.6.9\n"
+"X-Generator: Poedit 1.6.10\n"
 "X-Poedit-SearchPath-0: S:\\home\\wordpress\\trunk\n"
 
-#: wp-admin/about.php:16
+#: wp-admin/about.php:19
 msgid "About"
 msgstr "Детали"
 
-#: wp-admin/about.php:25
+#: wp-admin/about.php:28
 msgid "Welcome to WordPress&nbsp;%s"
 msgstr "Добро пожаловать в WordPress&nbsp;%s"
 
-#: wp-admin/about.php:27 wp-admin/credits.php:85 wp-admin/freedoms.php:22
+#: wp-admin/about.php:30 wp-admin/credits.php:85 wp-admin/freedoms.php:22
 msgid ""
 "Thank you for updating! WordPress %s brings you a smoother writing and "
 "management experience."
@@ -36,174 +36,28 @@ msgstr ""
 "Спасибо за обновление! WordPress %s делает создание записей и управление "
 "сайтом более удобным."
 
-#: wp-admin/about.php:29 wp-admin/credits.php:87 wp-admin/freedoms.php:24
+#: wp-admin/about.php:32 wp-admin/credits.php:87 wp-admin/freedoms.php:24
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:385
 #: wp-admin/includes/class-wp-plugins-list-table.php:514
 #: wp-admin/includes/update.php:164 wp-admin/includes/update.php:188
 msgid "Version %s"
 msgstr "Версия %s"
 
-#: wp-admin/about.php:33 wp-admin/credits.php:91 wp-admin/freedoms.php:28
+#: wp-admin/about.php:36 wp-admin/credits.php:91 wp-admin/freedoms.php:28
 msgid "What&#8217;s New"
 msgstr "Что нового"
 
-#: wp-admin/about.php:35 wp-admin/credits.php:12 wp-admin/credits.php:93
+#: wp-admin/about.php:38 wp-admin/credits.php:12 wp-admin/credits.php:93
 #: wp-admin/freedoms.php:30
 msgid "Credits"
 msgstr "Участники"
 
-#: wp-admin/about.php:37 wp-admin/credits.php:95 wp-admin/freedoms.php:12
+#: wp-admin/about.php:40 wp-admin/credits.php:95 wp-admin/freedoms.php:12
 #: wp-admin/freedoms.php:32
 msgid "Freedoms"
 msgstr "Права"
 
-#: wp-admin/about.php:43
-msgid "Manage your media with style"
-msgstr "Стильное управление файлами"
-
-#: wp-admin/about.php:46
-msgid ""
-"Explore your uploads in a beautiful, endless grid. A new details preview "
-"makes viewing and editing any amount of media in sequence a snap."
-msgstr ""
-"Просматривайте загруженные файлы в красивой сетке с бесконечной прокруткой. "
-"Новое окно параметров позволяет моментально просматривать и править любое "
-"количество файлов."
-
-#: wp-admin/about.php:66
-msgid "Working with embeds has never been easier"
-msgstr "Вставлять объекты стало проще, чем когда-либо"
-
-#: wp-admin/about.php:67
-msgid ""
-"Paste in a YouTube URL on a new line, and watch it magically become an "
-"embedded video. Now try it with a tweet. Oh yeah &#8212; embedding has "
-"become a visual experience. The editor shows a true preview of your embedded "
-"content, saving you time and giving you confidence."
-msgstr ""
-"Вставьте адрес ролика с YouTube отдельной строкой, и он волшебным образом "
-"превратится во встроенное видео. Теперь попробуйте вставить сообщение с "
-"Твиттера. О да &#8212; вставленные объекты теперь можно оценить визуально. "
-"Редактор показывает встроенное содержимое так же, как оно будет выглядеть на "
-"сайте, экономя ваше время и вселяя уверенность."
-
-#: wp-admin/about.php:68
-msgid ""
-"We&#8217;ve expanded the services supported by default, too &#8212; you can "
-"embed videos from CollegeHumor, playlists from YouTube, and talks from TED. "
-"<a href=\"http://codex.wordpress.org/Embeds\">Check out all of the embeds</"
-"a> that WordPress supports."
-msgstr ""
-"Мы также расширили список поддерживаемых сервисов &#8212; можно вставлять "
-"видео с CollegeHumor, плей-листы с YouTube и выступления с TED. <a href="
-"\"http://codex.wordpress.org/Вставка_объектов\">Посмотрите список всех "
-"сервисов</a>, которые поддерживает WordPress."
-
-#: wp-admin/about.php:76
-msgid "Focus on your content"
-msgstr "Сосредоточьтесь на содержимом"
-
-#: wp-admin/about.php:77
-msgid ""
-"Writing and editing is smoother and more immersive with an editor that "
-"expands to fit your content as you write, and keeps the formatting tools "
-"available at all times."
-msgstr ""
-"Создание и редактирование записей стало более плавным и увлекательным "
-"благодаря редактору, который растягивается по мере написания и всегда "
-"сохраняет инструменты форматирования в пределах видимости."
-
-#: wp-admin/about.php:93
-msgid "Finding the right plugin"
-msgstr "В поисках нужного плагина"
-
-#: wp-admin/about.php:94
-msgid ""
-"There are more than 30,000 free and open source plugins in the WordPress "
-"plugin directory. WordPress 4.0 makes it easier to find the right one for "
-"your needs, with new metrics, improved search, and a more visual browsing "
-"experience."
-msgstr ""
-"В каталоге WordPress более 30 000 бесплатных плагинов с открытым исходным "
-"кодом. В WordPress 4.0 стало гораздо легче подобрать плагин именно для ваших "
-"нужд, благодаря новым характеристикам, улучшенному поиску и более наглядному "
-"обзору."
-
-#: wp-admin/about.php:95
-msgid "Browse plugins"
-msgstr "Обзор плагинов"
-
-#: wp-admin/about.php:103
-msgid "Under the Hood"
-msgstr "Под капотом"
-
-#: wp-admin/about.php:107
-msgid "Customizer API"
-msgstr "API настройки тем"
-
-#: wp-admin/about.php:108
-msgid ""
-"Contexts, panels, and a wider array of controls are now supported in the "
-"customizer."
-msgstr ""
-"В интерфейсе настройки тем теперь поддерживаются контексты, панели и более "
-"широкий набор элементов управления."
-
-#: wp-admin/about.php:111
-msgid "Query Ordering"
-msgstr "Сортировка запросов"
-
-#. translators: 1: "ORDER BY" (SQL), 2: "WP_Query"
-#: wp-admin/about.php:114
-msgid "Developers have more flexibility creating %1$s clauses through %2$s."
-msgstr "Разработчики могут создавать более гибкие условия %1$s с помощью %2$s."
-
-#: wp-admin/about.php:118 wp-admin/credits.php:191
-msgid "External Libraries"
-msgstr "Внешние библиотеки"
-
-#: wp-admin/about.php:119
-msgid ""
-"Updated libraries: TinyMCE&nbsp;4.1.3, jQuery&nbsp;1.11.1, "
-"MediaElement&nbsp;2.15."
-msgstr ""
-"Обновлённые библиотеки: TinyMCE&nbsp;4.1.3, jQuery&nbsp;1.11.1, "
-"MediaElement&nbsp;2.15."
-
-#: wp-admin/about.php:128
-msgid "Return to Updates"
-msgstr "Вернуться на страницу &laquo;Обновления&raquo;"
-
-#: wp-admin/about.php:128
-msgid "Return to Dashboard &rarr; Updates"
-msgstr ""
-"Вернуться на страницу &laquo;Консоль&raquo; &rarr; &laquo;Обновления&raquo;"
-
-#: wp-admin/about.php:132
-msgid "Go to Dashboard &rarr; Home"
-msgstr "Перейти на страницу &laquo;Консоль&raquo; &rarr; &laquo;Главная&raquo;"
-
-#: wp-admin/about.php:132
-msgid "Go to Dashboard"
-msgstr "Перейти на страницу &laquo;Консоль&raquo;"
-
-#: wp-admin/about.php:145
-msgid "Maintenance Release"
-msgid_plural "Maintenance Releases"
-msgstr[0] "Техническое обновление"
-msgstr[1] "Технические обновления"
-msgstr[2] "Технические обновления"
-msgstr[3] "Технические обновления"
-
-#: wp-admin/about.php:146
-msgid "Security Release"
-msgid_plural "Security Releases"
-msgstr[0] "Обновление безопасности"
-msgstr[1] "Обновления безопасности"
-msgstr[2] "Обновления безопасности"
-msgstr[3] "Обновления безопасности"
-
-#: wp-admin/about.php:147
+#: wp-admin/about.php:45 wp-admin/about.php:183
 msgid "Maintenance and Security Release"
 msgid_plural "Maintenance and Security Releases"
 msgstr[0] "Техническое обновление безопасности"
@@ -211,50 +65,9 @@ msgstr[1] "Технические обновления безопасности"
 msgstr[2] "Технические обновления безопасности"
 msgstr[3] "Технические обновления безопасности"
 
-#. translators: 1: WordPress version number.
-#: wp-admin/about.php:150
-msgid "<strong>Version %1$s</strong> addressed a security issue."
-msgid_plural "<strong>Version %1$s</strong> addressed some security issues."
-msgstr[0] "В <strong>версии %1$s</strong> решена проблема с безопасностью."
-msgstr[1] ""
-"В <strong>версии %1$s</strong> решены несколько проблем с безопасностью."
-msgstr[2] ""
-"В <strong>версии %1$s</strong> решены несколько проблем с безопасностью."
-msgstr[3] ""
-"В <strong>версии %1$s</strong> решены несколько проблем с безопасностью."
-
-#. translators: 1: WordPress version number, 2: plural number of bugs.
-#: wp-admin/about.php:154
-msgid "<strong>Version %1$s</strong> addressed %2$s bug."
-msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
-msgstr[0] "В <strong>версии %1$s</strong> исправлена %2$s ошибка."
-msgstr[1] "В <strong>версии %1$s</strong> исправлены %2$s ошибки."
-msgstr[2] "В <strong>версии %1$s</strong> исправлены %2$s ошибок."
-msgstr[3] "В <strong>версии %1$s</strong> исправлена %2$s ошибка."
-
-#. translators: 1: WordPress version number, 2: plural number of bugs. Singular
-#. security issue.
-#: wp-admin/about.php:158
-msgid ""
-"<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
-msgid_plural ""
-"<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
-msgstr[0] ""
-"В <strong>версии %1$s</strong> решена проблема с безопасностью и исправлена "
-"%2$s ошибка."
-msgstr[1] ""
-"В <strong>версии %1$s</strong> решена проблема с безопасностью и исправлены "
-"%2$s ошибки."
-msgstr[2] ""
-"В <strong>версии %1$s</strong> решена проблема с безопасностью и исправлены "
-"%2$s ошибок."
-msgstr[3] ""
-"В <strong>версии %1$s</strong> решена проблема с безопасностью и исправлена "
-"%2$s ошибка."
-
 #. translators: 1: WordPress version number, 2: plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:162
+#: wp-admin/about.php:46 wp-admin/about.php:198
 msgid ""
 "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s "
 "bug."
@@ -274,10 +87,197 @@ msgstr[3] ""
 "В <strong>версии %1$s</strong> решены несколько проблем с безопасностью и "
 "исправлена %2$s ошибка."
 
-#: wp-admin/about.php:165
+#: wp-admin/about.php:48 wp-admin/about.php:201
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr ""
 "Дополнительную информацию можно найти в <a href=\"%s\">заметке о релизе</a>."
+
+#: wp-admin/about.php:65
+msgid "Manage your media with style"
+msgstr "Стильное управление файлами"
+
+#: wp-admin/about.php:66
+msgid ""
+"Explore your uploads in a beautiful, endless grid. A new details preview "
+"makes viewing and editing any amount of media in sequence a snap."
+msgstr ""
+"Просматривайте загруженные файлы в красивой сетке с бесконечной прокруткой. "
+"Новое окно параметров позволяет моментально просматривать и править любое "
+"количество файлов."
+
+#: wp-admin/about.php:92
+msgid "Working with embeds has never been easier"
+msgstr "Вставлять объекты стало проще, чем когда-либо"
+
+#: wp-admin/about.php:93
+msgid ""
+"Paste in a YouTube URL on a new line, and watch it magically become an "
+"embedded video. Now try it with a tweet. Oh yeah &#8212; embedding has "
+"become a visual experience. The editor shows a true preview of your embedded "
+"content, saving you time and giving you confidence."
+msgstr ""
+"Вставьте адрес ролика с YouTube отдельной строкой, и он волшебным образом "
+"превратится во встроенное видео. Теперь попробуйте вставить сообщение с "
+"Твиттера. О да &#8212; вставленные объекты теперь можно оценить визуально. "
+"Редактор показывает встроенное содержимое так же, как оно будет выглядеть на "
+"сайте, экономя ваше время и вселяя уверенность."
+
+#: wp-admin/about.php:94
+msgid ""
+"We&#8217;ve expanded the services supported by default, too &#8212; you can "
+"embed videos from CollegeHumor, playlists from YouTube, and talks from TED. "
+"<a href=\"http://codex.wordpress.org/Embeds\">Check out all of the embeds</"
+"a> that WordPress supports."
+msgstr ""
+"Мы также расширили список поддерживаемых сервисов &#8212; можно вставлять "
+"видео с CollegeHumor, плей-листы с YouTube и выступления с TED. <a href="
+"\"http://codex.wordpress.org/Вставка_объектов\">Посмотрите список всех "
+"сервисов</a>, которые поддерживает WordPress."
+
+#: wp-admin/about.php:102
+msgid "Focus on your content"
+msgstr "Сосредоточьтесь на содержимом"
+
+#: wp-admin/about.php:103
+msgid ""
+"Writing and editing is smoother and more immersive with an editor that "
+"expands to fit your content as you write, and keeps the formatting tools "
+"available at all times."
+msgstr ""
+"Создание и редактирование записей стало более плавным и увлекательным "
+"благодаря редактору, который растягивается по мере написания и всегда "
+"сохраняет инструменты форматирования в пределах видимости."
+
+#: wp-admin/about.php:129
+msgid "Finding the right plugin"
+msgstr "В поисках нужного плагина"
+
+#: wp-admin/about.php:130
+msgid ""
+"There are more than 30,000 free and open source plugins in the WordPress "
+"plugin directory. WordPress 4.0 makes it easier to find the right one for "
+"your needs, with new metrics, improved search, and a more visual browsing "
+"experience."
+msgstr ""
+"В каталоге WordPress более 30 000 бесплатных плагинов с открытым исходным "
+"кодом. В WordPress 4.0 стало гораздо легче подобрать плагин именно для ваших "
+"нужд, благодаря новым характеристикам, улучшенному поиску и более наглядному "
+"обзору."
+
+#: wp-admin/about.php:131
+msgid "Browse plugins"
+msgstr "Обзор плагинов"
+
+#: wp-admin/about.php:139
+msgid "Under the Hood"
+msgstr "Под капотом"
+
+#: wp-admin/about.php:143
+msgid "Customizer API"
+msgstr "API настройки тем"
+
+#: wp-admin/about.php:144
+msgid ""
+"Contexts, panels, and a wider array of controls are now supported in the "
+"customizer."
+msgstr ""
+"В интерфейсе настройки тем теперь поддерживаются контексты, панели и более "
+"широкий набор элементов управления."
+
+#: wp-admin/about.php:147
+msgid "Query Ordering"
+msgstr "Сортировка запросов"
+
+#. translators: 1: "ORDER BY" (SQL), 2: "WP_Query"
+#: wp-admin/about.php:150
+msgid "Developers have more flexibility creating %1$s clauses through %2$s."
+msgstr "Разработчики могут создавать более гибкие условия %1$s с помощью %2$s."
+
+#: wp-admin/about.php:154 wp-admin/credits.php:191
+msgid "External Libraries"
+msgstr "Внешние библиотеки"
+
+#: wp-admin/about.php:155
+msgid ""
+"Updated libraries: TinyMCE&nbsp;4.1.3, jQuery&nbsp;1.11.1, "
+"MediaElement&nbsp;2.15."
+msgstr ""
+"Обновлённые библиотеки: TinyMCE&nbsp;4.1.3, jQuery&nbsp;1.11.1, "
+"MediaElement&nbsp;2.15."
+
+#: wp-admin/about.php:164
+msgid "Return to Updates"
+msgstr "Вернуться на страницу &laquo;Обновления&raquo;"
+
+#: wp-admin/about.php:164
+msgid "Return to Dashboard &rarr; Updates"
+msgstr ""
+"Вернуться на страницу &laquo;Консоль&raquo; &rarr; &laquo;Обновления&raquo;"
+
+#: wp-admin/about.php:168
+msgid "Go to Dashboard &rarr; Home"
+msgstr "Перейти на страницу &laquo;Консоль&raquo; &rarr; &laquo;Главная&raquo;"
+
+#: wp-admin/about.php:168
+msgid "Go to Dashboard"
+msgstr "Перейти на страницу &laquo;Консоль&raquo;"
+
+#: wp-admin/about.php:181
+msgid "Maintenance Release"
+msgid_plural "Maintenance Releases"
+msgstr[0] "Техническое обновление"
+msgstr[1] "Технические обновления"
+msgstr[2] "Технические обновления"
+msgstr[3] "Технические обновления"
+
+#: wp-admin/about.php:182
+msgid "Security Release"
+msgid_plural "Security Releases"
+msgstr[0] "Обновление безопасности"
+msgstr[1] "Обновления безопасности"
+msgstr[2] "Обновления безопасности"
+msgstr[3] "Обновления безопасности"
+
+#. translators: 1: WordPress version number.
+#: wp-admin/about.php:186
+msgid "<strong>Version %1$s</strong> addressed a security issue."
+msgid_plural "<strong>Version %1$s</strong> addressed some security issues."
+msgstr[0] "В <strong>версии %1$s</strong> решена проблема с безопасностью."
+msgstr[1] ""
+"В <strong>версии %1$s</strong> решены несколько проблем с безопасностью."
+msgstr[2] ""
+"В <strong>версии %1$s</strong> решены несколько проблем с безопасностью."
+msgstr[3] ""
+"В <strong>версии %1$s</strong> решены несколько проблем с безопасностью."
+
+#. translators: 1: WordPress version number, 2: plural number of bugs.
+#: wp-admin/about.php:190
+msgid "<strong>Version %1$s</strong> addressed %2$s bug."
+msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
+msgstr[0] "В <strong>версии %1$s</strong> исправлена %2$s ошибка."
+msgstr[1] "В <strong>версии %1$s</strong> исправлены %2$s ошибки."
+msgstr[2] "В <strong>версии %1$s</strong> исправлены %2$s ошибок."
+msgstr[3] "В <strong>версии %1$s</strong> исправлена %2$s ошибка."
+
+#. translators: 1: WordPress version number, 2: plural number of bugs. Singular
+#. security issue.
+#: wp-admin/about.php:194
+msgid ""
+"<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
+msgid_plural ""
+"<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
+msgstr[0] ""
+"В <strong>версии %1$s</strong> решена проблема с безопасностью и исправлена "
+"%2$s ошибка."
+msgstr[1] ""
+"В <strong>версии %1$s</strong> решена проблема с безопасностью и исправлены "
+"%2$s ошибки."
+msgstr[2] ""
+"В <strong>версии %1$s</strong> решена проблема с безопасностью и исправлены "
+"%2$s ошибок."
+msgstr[3] ""
+"В <strong>версии %1$s</strong> решена проблема с безопасностью и исправлена "
+"%2$s ошибка."
 
 #: wp-admin/admin-footer.php:29
 msgid "Thank you for creating with <a href=\"%s\">WordPress</a>."
@@ -321,7 +321,7 @@ msgid "Unknown post type."
 msgstr "Неизвестный тип записи."
 
 #: wp-admin/async-upload.php:56 wp-admin/edit-tags.php:247
-#: wp-admin/includes/post.php:1645 wp-admin/post.php:154
+#: wp-admin/includes/post.php:1651 wp-admin/post.php:154
 msgid "You are not allowed to edit this item."
 msgstr "Вам не разрешено редактировать этот элемент."
 
@@ -350,7 +350,7 @@ msgstr "Изменить комментарий"
 #: wp-admin/options-general.php:73 wp-admin/options-media.php:28
 #: wp-admin/options-permalink.php:20 wp-admin/options-reading.php:55
 #: wp-admin/options-writing.php:20 wp-admin/plugin-editor.php:128
-#: wp-admin/plugin-install.php:50 wp-admin/plugins.php:344
+#: wp-admin/plugin-install.php:69 wp-admin/plugins.php:344
 #: wp-admin/revision.php:114 wp-admin/theme-editor.php:25
 #: wp-admin/theme-install.php:87 wp-admin/themes.php:49
 #: wp-admin/update-core.php:470 wp-admin/upload.php:33 wp-admin/upload.php:198
@@ -386,7 +386,7 @@ msgstr ""
 #: wp-admin/options-discussion.php:25 wp-admin/options-general.php:78
 #: wp-admin/options-media.php:33 wp-admin/options-permalink.php:43
 #: wp-admin/options-reading.php:70 wp-admin/options-writing.php:50
-#: wp-admin/plugin-editor.php:139 wp-admin/plugin-install.php:65
+#: wp-admin/plugin-editor.php:139 wp-admin/plugin-install.php:84
 #: wp-admin/plugins.php:358 wp-admin/revision.php:118
 #: wp-admin/theme-editor.php:38 wp-admin/theme-install.php:102
 #: wp-admin/themes.php:84 wp-admin/tools.php:27 wp-admin/update-core.php:488
@@ -414,7 +414,7 @@ msgstr ""
 #: wp-admin/options-discussion.php:27 wp-admin/options-general.php:80
 #: wp-admin/options-media.php:35 wp-admin/options-permalink.php:46
 #: wp-admin/options-reading.php:72 wp-admin/options-writing.php:52
-#: wp-admin/plugin-editor.php:142 wp-admin/plugin-install.php:67
+#: wp-admin/plugin-editor.php:142 wp-admin/plugin-install.php:86
 #: wp-admin/plugins.php:360 wp-admin/revision.php:120
 #: wp-admin/theme-editor.php:43 wp-admin/theme-install.php:104
 #: wp-admin/themes.php:86 wp-admin/tools.php:29 wp-admin/update-core.php:490
@@ -433,7 +433,7 @@ msgid "Oops, no comment with this ID."
 msgstr "Оп-па, комментария с таким ID не найдено."
 
 #: wp-admin/comment.php:68 wp-admin/comment.php:221
-#: wp-admin/includes/post.php:1382
+#: wp-admin/includes/post.php:1388
 msgid "Go back"
 msgstr "Назад"
 
@@ -2839,7 +2839,7 @@ msgid "You are not allowed to edit this page."
 msgstr "Вам не разрешено редактировать эту страницу."
 
 #: wp-admin/includes/ajax-actions.php:1505 wp-admin/includes/post.php:205
-#: wp-admin/includes/post.php:1580 wp-admin/includes/post.php:1584
+#: wp-admin/includes/post.php:1586 wp-admin/includes/post.php:1590
 #: wp-admin/press-this.php:33 wp-admin/upload.php:110
 msgid "You are not allowed to edit this post."
 msgstr "Вам не разрешено редактировать эту запись."
@@ -2874,7 +2874,7 @@ msgid "Scheduled"
 msgstr "Запланировано"
 
 #: wp-admin/includes/ajax-actions.php:2623
-#: wp-admin/includes/plugin-install.php:448
+#: wp-admin/includes/plugin-install.php:453
 msgid "(based on %s rating)"
 msgid_plural "(based on %s ratings)"
 msgstr[0] "(всего %s голос)"
@@ -3380,9 +3380,9 @@ msgid "%s from now"
 msgstr "%s до публикации"
 
 #: wp-admin/includes/class-wp-media-list-table.php:398
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:461
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:463
 #: wp-admin/includes/class-wp-posts-list-table.php:734
-#: wp-admin/includes/plugin-install.php:429 wp-admin/includes/revision.php:173
+#: wp-admin/includes/plugin-install.php:434 wp-admin/includes/revision.php:173
 msgid "%s ago"
 msgstr "%s назад"
 
@@ -3625,7 +3625,7 @@ msgid "Broken Theme:"
 msgstr "Повреждённая тема:"
 
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:387
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:380
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:382
 #: wp-admin/includes/class-wp-plugins-list-table.php:519
 #: wp-admin/includes/class-wp-theme-install-list-table.php:272
 #: wp-admin/includes/class-wp-theme-install-list-table.php:374
@@ -3712,13 +3712,13 @@ msgid "Beta Testing"
 msgstr "Бета-тестирование"
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:74
-#: wp-admin/plugin-install.php:85 wp-admin/update.php:134
+#: wp-admin/plugin-install.php:104 wp-admin/update.php:134
 msgid "Upload Plugin"
 msgstr "Загрузить плагин"
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:197
 #: wp-admin/includes/class-wp-theme-install-list-table.php:125
-#: wp-admin/setup-config.php:209
+#: wp-admin/setup-config.php:212
 msgid "Try again"
 msgstr "Попробовать ещё раз"
 
@@ -3726,69 +3726,69 @@ msgstr "Попробовать ещё раз"
 msgid "No plugins match your request."
 msgstr "Нет плагинов, удовлетворяющих вашему запросу."
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:336
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:338
 msgctxt "Plugin installer group title"
 msgid "Performance"
 msgstr "Производительность"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:337
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:339
 msgctxt "Plugin installer group title"
 msgid "Social"
 msgstr "Социальные сети"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:338
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:340
 msgctxt "Plugin installer group title"
 msgid "Tools"
 msgstr "Инструменты"
 
 #. translators: 1: Plugin name and version.
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:392
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:394
 msgid "Install %s now"
 msgstr "Установить %s сейчас"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:392
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:394
 #: wp-admin/includes/class-wp-theme-install-list-table.php:249
 #: wp-admin/includes/plugin-install.php:203
-#: wp-admin/includes/plugin-install.php:523
+#: wp-admin/includes/plugin-install.php:528
 #: wp-admin/includes/theme-install.php:143
 msgid "Install Now"
 msgstr "Установить"
 
 #. translators: 1: Plugin name and version
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:399
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:401
 msgid "Update %s now"
 msgstr "Обновить %s сейчас"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:399
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:401
 #: wp-admin/update-core.php:40
 msgid "Update Now"
 msgstr "Обновить сейчас"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:405
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:407
 msgid "This plugin is already installed and is up to date"
 msgstr "Этот плагин уже установлен и не требует обновления"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:405
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:407
 msgctxt "plugin"
 msgid "Installed"
 msgstr "Установлен"
 
 #. translators: 1: Plugin name and version.
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:414
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:416
 #: wp-admin/includes/class-wp-plugins-list-table.php:527
 msgid "More information about %s"
 msgstr "Подробности о %s"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:414
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:416
 msgid "More Details"
 msgstr "Детали"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:460
-#: wp-admin/includes/plugin-install.php:428
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:462
+#: wp-admin/includes/plugin-install.php:433
 msgid "Last Updated:"
 msgstr "Обновление:"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:465
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:467
 msgid "%s download"
 msgid_plural "%s downloads"
 msgstr[0] "%s скачивание"
@@ -3796,15 +3796,15 @@ msgstr[1] "%s скачивания"
 msgstr[2] "%s скачиваний"
 msgstr[3] "%s скачиваний"
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:470
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:472
 msgid "<strong>Untested</strong> with your version of WordPress"
 msgstr "<strong>Не тестировался</strong> с вашей версией WordPress."
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:472
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:474
 msgid "<strong>Incompatible</strong> with your version of WordPress"
 msgstr "<strong>Несовместим</strong> с вашей версией WordPress."
 
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:474
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:476
 msgid "<strong>Compatible</strong> with your version of WordPress"
 msgstr "<strong>Совместим</strong> с вашей версией WordPress."
 
@@ -4166,7 +4166,7 @@ msgid "Install"
 msgstr "Установить"
 
 #: wp-admin/includes/class-wp-theme-install-list-table.php:381
-#: wp-admin/includes/plugin-install.php:424
+#: wp-admin/includes/plugin-install.php:429
 msgid "Version:"
 msgstr "Версия:"
 
@@ -6563,7 +6563,7 @@ msgstr "Цветовая схема"
 msgid "%s has taken over and is currently editing."
 msgstr "%s перехватил и сейчас редактирует этот материал."
 
-#: wp-admin/includes/misc.php:816 wp-admin/includes/post.php:1639
+#: wp-admin/includes/misc.php:816 wp-admin/includes/post.php:1645
 #: wp-admin/widgets.php:306
 msgid "Error while saving."
 msgstr "Ошибка при сохранении."
@@ -6969,66 +6969,66 @@ msgstr "Ваше имя пользователя на WordPress.org:"
 msgid "Get Favorites"
 msgstr "Получить список"
 
-#: wp-admin/includes/plugin-install.php:345
+#: wp-admin/includes/plugin-install.php:350
 msgctxt "Plugin installer section title"
 msgid "Description"
 msgstr "Описание"
 
-#: wp-admin/includes/plugin-install.php:346
+#: wp-admin/includes/plugin-install.php:351
 msgctxt "Plugin installer section title"
 msgid "Installation"
 msgstr "Установка"
 
-#: wp-admin/includes/plugin-install.php:347
+#: wp-admin/includes/plugin-install.php:352
 msgctxt "Plugin installer section title"
 msgid "FAQ"
 msgstr "FAQ"
 
-#: wp-admin/includes/plugin-install.php:348
+#: wp-admin/includes/plugin-install.php:353
 msgctxt "Plugin installer section title"
 msgid "Screenshots"
 msgstr "Скриншоты"
 
-#: wp-admin/includes/plugin-install.php:349
+#: wp-admin/includes/plugin-install.php:354
 msgctxt "Plugin installer section title"
 msgid "Changelog"
 msgstr "Изменения"
 
-#: wp-admin/includes/plugin-install.php:350
+#: wp-admin/includes/plugin-install.php:355
 msgctxt "Plugin installer section title"
 msgid "Reviews"
-msgstr "Обзоры"
+msgstr "Отзывы"
 
-#: wp-admin/includes/plugin-install.php:351
+#: wp-admin/includes/plugin-install.php:356
 msgctxt "Plugin installer section title"
 msgid "Other Notes"
 msgstr "Заметки"
 
-#: wp-admin/includes/plugin-install.php:373 wp-admin/update.php:106
+#: wp-admin/includes/plugin-install.php:378 wp-admin/update.php:106
 msgid "Plugin Install"
 msgstr "Установка плагина"
 
-#: wp-admin/includes/plugin-install.php:426
+#: wp-admin/includes/plugin-install.php:431
 msgid "Author:"
 msgstr "Автор:"
 
-#: wp-admin/includes/plugin-install.php:432
+#: wp-admin/includes/plugin-install.php:437
 msgid "Requires WordPress Version:"
 msgstr "Требуемая версия WordPress:"
 
-#: wp-admin/includes/plugin-install.php:432
+#: wp-admin/includes/plugin-install.php:437
 msgid "%s or higher"
 msgstr "%s или выше"
 
-#: wp-admin/includes/plugin-install.php:434
+#: wp-admin/includes/plugin-install.php:439
 msgid "Compatible up to:"
 msgstr "Совместим вплоть до:"
 
-#: wp-admin/includes/plugin-install.php:436
+#: wp-admin/includes/plugin-install.php:441
 msgid "Downloaded:"
 msgstr "Скачан:"
 
-#: wp-admin/includes/plugin-install.php:436
+#: wp-admin/includes/plugin-install.php:441
 msgid "%s time"
 msgid_plural "%s times"
 msgstr[0] "%s раз"
@@ -7036,32 +7036,32 @@ msgstr[1] "%s раза"
 msgstr[2] "%s раз"
 msgstr[3] "%s раз"
 
-#: wp-admin/includes/plugin-install.php:438
+#: wp-admin/includes/plugin-install.php:443
 msgid "WordPress.org Plugin Page &#187;"
 msgstr "Страница на WordPress.org &#187;"
 
-#: wp-admin/includes/plugin-install.php:440
+#: wp-admin/includes/plugin-install.php:445
 msgid "Plugin Homepage &#187;"
 msgstr "Домашняя страница &#187;"
 
-#: wp-admin/includes/plugin-install.php:442
-#: wp-admin/includes/plugin-install.php:490
+#: wp-admin/includes/plugin-install.php:447
+#: wp-admin/includes/plugin-install.php:495
 msgid "Donate to this plugin &#187;"
 msgstr "Сделать пожертвование &#187;"
 
-#: wp-admin/includes/plugin-install.php:446
+#: wp-admin/includes/plugin-install.php:451
 msgid "Average Rating"
 msgstr "Средний рейтинг"
 
-#: wp-admin/includes/plugin-install.php:458
+#: wp-admin/includes/plugin-install.php:463
 msgid "Click to see reviews that provided a rating of %d star"
 msgid_plural "Click to see reviews that provided a rating of %d stars"
-msgstr[0] "Нажмите, чтобы увидеть обзоры с оценкой в %d звезду"
-msgstr[1] "Нажмите, чтобы увидеть обзоры с оценкой в %d звезды"
-msgstr[2] "Нажмите, чтобы увидеть обзоры с оценкой в %d звёзд"
-msgstr[3] "Нажмите, чтобы увидеть обзоры с оценкой в %d звезду"
+msgstr[0] "Нажмите, чтобы увидеть отзывы с оценкой в %d звезду"
+msgstr[1] "Нажмите, чтобы увидеть отзывы с оценкой в %d звезды"
+msgstr[2] "Нажмите, чтобы увидеть отзывы с оценкой в %d звёзд"
+msgstr[3] "Нажмите, чтобы увидеть отзывы с оценкой в %d звезду"
 
-#: wp-admin/includes/plugin-install.php:459
+#: wp-admin/includes/plugin-install.php:464
 msgid "%d star"
 msgid_plural "%d stars"
 msgstr[0] "%d звезда"
@@ -7069,11 +7069,11 @@ msgstr[1] "%d звезды"
 msgstr[2] "%d звёзд"
 msgstr[3] "%d звезда"
 
-#: wp-admin/includes/plugin-install.php:470
+#: wp-admin/includes/plugin-install.php:475
 msgid "Contributors"
 msgstr "Участники разработки"
 
-#: wp-admin/includes/plugin-install.php:497
+#: wp-admin/includes/plugin-install.php:502
 msgid ""
 "<strong>Warning:</strong> This plugin has <strong>not been tested</strong> "
 "with your current version of WordPress."
@@ -7081,7 +7081,7 @@ msgstr ""
 "<strong>Внимание:</strong> Этот плагин <strong>не был протестирован</strong> "
 "с вашей версией WordPress."
 
-#: wp-admin/includes/plugin-install.php:499
+#: wp-admin/includes/plugin-install.php:504
 msgid ""
 "<strong>Warning:</strong> This plugin has <strong>not been marked as "
 "compatible</strong> with your version of WordPress."
@@ -7089,15 +7089,15 @@ msgstr ""
 "<strong>Внимание:</strong> Этот плагин не был помечен как "
 "<strong>совместимый</strong> с вашей версией WordPress."
 
-#: wp-admin/includes/plugin-install.php:528
+#: wp-admin/includes/plugin-install.php:533
 msgid "Install Update Now"
 msgstr "Установить обновление"
 
-#: wp-admin/includes/plugin-install.php:532
+#: wp-admin/includes/plugin-install.php:537
 msgid "Newer Version (%s) Installed"
 msgstr "Установлена более новая версия (%s)"
 
-#: wp-admin/includes/plugin-install.php:535
+#: wp-admin/includes/plugin-install.php:540
 msgid "Latest Version Installed"
 msgstr "Установлена свежая версия"
 
@@ -7221,7 +7221,7 @@ msgstr "Нажмите, чтобы изменить эту часть посто
 msgid "Temporary permalink. Click to edit this part."
 msgstr "Временная ссылка. Нажмите, чтобы изменить эту часть."
 
-#: wp-admin/includes/post.php:1203 wp-admin/includes/post.php:1219
+#: wp-admin/includes/post.php:1203 wp-admin/includes/post.php:1225
 msgid "Permalink:"
 msgstr "Постоянная ссылка:"
 
@@ -7229,27 +7229,27 @@ msgstr "Постоянная ссылка:"
 msgid "Change Permalinks"
 msgstr "Изменить постоянные ссылки"
 
-#: wp-admin/includes/post.php:1280
+#: wp-admin/includes/post.php:1286
 msgid "Remove featured image"
 msgstr "Удалить миниатюру"
 
-#: wp-admin/includes/post.php:1436
+#: wp-admin/includes/post.php:1442
 msgid "This content is currently locked."
 msgstr "Это содержимое на текущий момент заблокировано."
 
-#: wp-admin/includes/post.php:1438
+#: wp-admin/includes/post.php:1444
 msgid "If you take over, %s will be blocked from continuing to edit."
 msgstr "Если вы перехватите запись, %s не сможет продолжить редактирование."
 
-#: wp-admin/includes/post.php:1461
+#: wp-admin/includes/post.php:1467
 msgid "Take over"
 msgstr "Перехватить"
 
-#: wp-admin/includes/post.php:1475
+#: wp-admin/includes/post.php:1481
 msgid "Saving revision..."
 msgstr "Сохранение редакции..."
 
-#: wp-admin/includes/post.php:1476
+#: wp-admin/includes/post.php:1482
 msgid "Your latest changes were saved as a revision."
 msgstr "Ваши последние изменения сохранены в виде редакции."
 
@@ -8493,12 +8493,12 @@ msgstr ""
 "В вашем файле <code>wp-config.php</code> указан пустой префикс таблиц базы "
 "данных. Такая конфигурация не поддерживается."
 
-#: wp-admin/install.php:213
+#: wp-admin/install.php:215
 msgctxt "Howdy"
 msgid "Welcome"
 msgstr "Добро пожаловать"
 
-#: wp-admin/install.php:214
+#: wp-admin/install.php:216
 msgid ""
 "Welcome to the famous five-minute WordPress installation process! Just fill "
 "in the information below and you&#8217;ll be on your way to using the most "
@@ -8508,11 +8508,11 @@ msgstr ""
 "заполните информацию ниже &#8212; и вперёд, к использованию самой мощной и "
 "гибкой персональной платформы для публикаций в мире!"
 
-#: wp-admin/install.php:216
+#: wp-admin/install.php:218
 msgid "Information needed"
 msgstr "Требуется информация"
 
-#: wp-admin/install.php:217
+#: wp-admin/install.php:219
 msgid ""
 "Please provide the following information. Don&#8217;t worry, you can always "
 "change these settings later."
@@ -8520,23 +8520,23 @@ msgstr ""
 "Пожалуйста, укажите следующую информацию. Не переживайте, потом вы всегда "
 "сможете изменить эти настройки."
 
-#: wp-admin/install.php:246
+#: wp-admin/install.php:248
 msgid "Please provide a valid username."
 msgstr "Пожалуйста, введите корректное имя пользователя."
 
-#: wp-admin/install.php:249
+#: wp-admin/install.php:251
 msgid "The username you provided has invalid characters."
 msgstr "Введённое имя пользователя содержит недопустимые символы."
 
-#: wp-admin/install.php:253
+#: wp-admin/install.php:255
 msgid "Your passwords do not match. Please try again."
 msgstr "Пароли не совпадают. Пожалуйста, попробуйте ещё раз."
 
-#: wp-admin/install.php:257
+#: wp-admin/install.php:259
 msgid "You must provide an email address."
 msgstr "Необходимо ввести адрес e-mail."
 
-#: wp-admin/install.php:261
+#: wp-admin/install.php:263
 msgid ""
 "Sorry, that isn&#8217;t a valid email address. Email addresses look like "
 "<code>username@example.com</code>."
@@ -8544,11 +8544,11 @@ msgstr ""
 "Извините, это некорректный адрес e-mail. Пример адреса: "
 "<code>username@example.com</code>."
 
-#: wp-admin/install.php:270
+#: wp-admin/install.php:272
 msgid "Success!"
 msgstr "Поздравляем!"
 
-#: wp-admin/install.php:272
+#: wp-admin/install.php:274
 msgid ""
 "WordPress has been installed. Were you expecting more steps? Sorry to "
 "disappoint."
@@ -10818,11 +10818,11 @@ msgid "You do not have sufficient permissions to install plugins on this site."
 msgstr ""
 "У вас недостаточно полномочий, чтобы устанавливать плагины на этот сайт."
 
-#: wp-admin/plugin-install.php:29
+#: wp-admin/plugin-install.php:48
 msgid "Add Plugins"
 msgstr "Добавить плагины"
 
-#: wp-admin/plugin-install.php:52
+#: wp-admin/plugin-install.php:71
 msgid ""
 "Plugins hook into WordPress to extend its functionality with custom "
 "features. Plugins are developed independently from the core WordPress "
@@ -10839,11 +10839,11 @@ msgstr ""
 "совместимы с лицензией WordPress. Вы можете найти новые плагины с помощью "
 "поиска или просмотра каталога прямо с этой страницы."
 
-#: wp-admin/plugin-install.php:56
+#: wp-admin/plugin-install.php:75
 msgid "Adding Plugins"
 msgstr "Добавление плагинов"
 
-#: wp-admin/plugin-install.php:58
+#: wp-admin/plugin-install.php:77
 msgid ""
 "If you know what you&#8217;re looking for, Search is your best bet. The "
 "Search screen has options to search the WordPress.org Plugin Directory for a "
@@ -10857,7 +10857,7 @@ msgstr ""
 "выбирая популярные метки. Более крупный шрифт метки означает, что эта метка "
 "была присвоена большему числу плагинов."
 
-#: wp-admin/plugin-install.php:59
+#: wp-admin/plugin-install.php:78
 msgid ""
 "If you just want to get an idea of what&#8217;s available, you can browse "
 "Featured and Popular plugins by using the links in the upper left of the "
@@ -10867,7 +10867,7 @@ msgstr ""
 "и популярные плагины, используя ссылки в левом верхнем углу экрана. Эти "
 "разделы регулярно обновляются."
 
-#: wp-admin/plugin-install.php:60
+#: wp-admin/plugin-install.php:79
 msgid ""
 "You can also browse a user&#8217;s favorite plugins, by using the Favorites "
 "link in the upper left of the screen and entering their WordPress.org "
@@ -10877,7 +10877,7 @@ msgstr ""
 "ссылку &laquo;Любимые&raquo; в левой верхней части экрана и введя имя "
 "пользователя на WordPress.org."
 
-#: wp-admin/plugin-install.php:61
+#: wp-admin/plugin-install.php:80
 msgid ""
 "If you want to install a plugin that you&#8217;ve downloaded elsewhere, "
 "click the Upload link in the upper left. You will be prompted to upload the ."
@@ -10887,7 +10887,7 @@ msgstr ""
 "&laquo;Загрузка&raquo; слева вверху. Вам предложат загрузить архив .zip, "
 "после чего вы сможете активировать новый плагин."
 
-#: wp-admin/plugin-install.php:66
+#: wp-admin/plugin-install.php:85
 msgid ""
 "<a href=\"http://codex.wordpress.org/Plugins_Add_New_Screen\" target=\"_blank"
 "\">Documentation on Installing Plugins</a>"
@@ -10895,7 +10895,7 @@ msgstr ""
 "<a href=\"http://codex.wordpress.org/Plugins_Add_New_Screen\" target=\"_blank"
 "\">Документация по установке плагинов</a>"
 
-#: wp-admin/plugin-install.php:82
+#: wp-admin/plugin-install.php:101
 msgctxt "plugins"
 msgid "Browse"
 msgstr "Обзор"
@@ -11368,7 +11368,7 @@ msgstr ""
 msgid "WordPress &rsaquo; Setup Configuration File"
 msgstr "WordPress &rsaquo; Настройка файла конфигурации"
 
-#: wp-admin/setup-config.php:125
+#: wp-admin/setup-config.php:128
 msgid ""
 "Welcome to WordPress. Before getting started, we need some information on "
 "the database. You will need to know the following items before proceeding."
@@ -11376,23 +11376,23 @@ msgstr ""
 "Добро пожаловать. Прежде чем мы начнём, потребуется информация о базе "
 "данных. Вот что вам необходимо знать до начала процедуры установки."
 
-#: wp-admin/setup-config.php:127
+#: wp-admin/setup-config.php:130
 msgid "Database name"
 msgstr "Имя базы данных"
 
-#: wp-admin/setup-config.php:128
+#: wp-admin/setup-config.php:131
 msgid "Database username"
 msgstr "Имя пользователя базы данных"
 
-#: wp-admin/setup-config.php:129
+#: wp-admin/setup-config.php:132
 msgid "Database password"
 msgstr "Пароль к базе данных"
 
-#: wp-admin/setup-config.php:130
+#: wp-admin/setup-config.php:133
 msgid "Database host"
 msgstr "Адрес сервера базы данных"
 
-#: wp-admin/setup-config.php:131
+#: wp-admin/setup-config.php:134
 msgid ""
 "Table prefix (if you want to run more than one WordPress in a single "
 "database)"
@@ -11400,14 +11400,14 @@ msgstr ""
 "Префикс таблиц (если вы хотите запустить более чем один WordPress на одной "
 "базе)"
 
-#: wp-admin/setup-config.php:134
+#: wp-admin/setup-config.php:137
 msgid ""
 "We&#8217;re going to use this information to create a <code>wp-config.php</"
 "code> file."
 msgstr ""
 "Мы используем эту информацию, чтобы создать файл <code>wp-config.php</code>."
 
-#: wp-admin/setup-config.php:135
+#: wp-admin/setup-config.php:138
 msgid ""
 "If for any reason this automatic file creation doesn&#8217;t work, don&#8217;"
 "t worry. All this does is fill in the database information to a "
@@ -11421,7 +11421,7 @@ msgstr ""
 "редакторе, внести вашу информацию и сохранить его под именем <code>wp-config."
 "php</code>."
 
-#: wp-admin/setup-config.php:138
+#: wp-admin/setup-config.php:141
 msgid ""
 "In all likelihood, these items were supplied to you by your Web Host. If you "
 "do not have this information, then you will need to contact them before you "
@@ -11431,11 +11431,11 @@ msgstr ""
 "у вас нет этой информации, свяжитесь с их службой поддержки. А если "
 "есть&hellip;"
 
-#: wp-admin/setup-config.php:140
+#: wp-admin/setup-config.php:143
 msgid "Let&#8217;s go!"
 msgstr "Вперёд!"
 
-#: wp-admin/setup-config.php:151
+#: wp-admin/setup-config.php:154
 msgid ""
 "Below you should enter your database connection details. If you&#8217;re not "
 "sure about these, contact your host."
@@ -11443,41 +11443,41 @@ msgstr ""
 "Введите здесь информацию о подключении к базе данных. Если вы в ней не "
 "уверены, свяжитесь с хостинг-провайдером."
 
-#: wp-admin/setup-config.php:154
+#: wp-admin/setup-config.php:157
 msgid "Database Name"
 msgstr "Имя базы данных"
 
-#: wp-admin/setup-config.php:156
+#: wp-admin/setup-config.php:159
 msgid "The name of the database you want to run WP in."
 msgstr "Имя базы данных, в которую вы хотите установить WP."
 
-#: wp-admin/setup-config.php:159
+#: wp-admin/setup-config.php:162
 msgid "User Name"
 msgstr "Имя пользователя"
 
-#: wp-admin/setup-config.php:160
+#: wp-admin/setup-config.php:163
 msgctxt "example username"
 msgid "username"
 msgstr "username"
 
-#: wp-admin/setup-config.php:161
+#: wp-admin/setup-config.php:164
 msgid "Your MySQL username"
 msgstr "Имя пользователя MySQL"
 
-#: wp-admin/setup-config.php:165
+#: wp-admin/setup-config.php:168
 msgctxt "example password"
 msgid "password"
 msgstr "password"
 
-#: wp-admin/setup-config.php:166
+#: wp-admin/setup-config.php:169
 msgid "&hellip;and your MySQL password."
 msgstr "&hellip;и пароль пользователя MySQL."
 
-#: wp-admin/setup-config.php:169
+#: wp-admin/setup-config.php:172
 msgid "Database Host"
 msgstr "Сервер базы данных"
 
-#: wp-admin/setup-config.php:171
+#: wp-admin/setup-config.php:174
 msgid ""
 "You should be able to get this info from your web host, if <code>localhost</"
 "code> does not work."
@@ -11485,11 +11485,11 @@ msgstr ""
 "Если <code>localhost</code> не работает, нужно узнать правильный адрес в "
 "службе поддержки хостинг-провайдера."
 
-#: wp-admin/setup-config.php:174
+#: wp-admin/setup-config.php:177
 msgid "Table Prefix"
 msgstr "Префикс таблиц"
 
-#: wp-admin/setup-config.php:176
+#: wp-admin/setup-config.php:179
 msgid ""
 "If you want to run multiple WordPress installations in a single database, "
 "change this."
@@ -11497,11 +11497,11 @@ msgstr ""
 "Если вы хотите запустить несколько копий WordPress в одной базе, измените "
 "это значение."
 
-#: wp-admin/setup-config.php:297
+#: wp-admin/setup-config.php:300
 msgid "Sorry, but I can&#8217;t write the <code>wp-config.php</code> file."
 msgstr "Извините, файл <code>wp-config.php</code> недоступен для записи."
 
-#: wp-admin/setup-config.php:298
+#: wp-admin/setup-config.php:301
 msgid ""
 "You can create the <code>wp-config.php</code> manually and paste the "
 "following text into it."
@@ -11509,16 +11509,16 @@ msgstr ""
 "Можно создать <code>wp-config.php</code> вручную и вставить туда следующий "
 "код:"
 
-#: wp-admin/setup-config.php:304
+#: wp-admin/setup-config.php:307
 msgid "After you&#8217;ve done that, click &#8220;Run the install.&#8221;"
 msgstr ""
 "Когда эта часть будет готова, нажмите &laquo;Запустить установку&raquo;."
 
-#: wp-admin/setup-config.php:305 wp-admin/setup-config.php:334
+#: wp-admin/setup-config.php:308 wp-admin/setup-config.php:337
 msgid "Run the install"
 msgstr "Запустить установку"
 
-#: wp-admin/setup-config.php:332
+#: wp-admin/setup-config.php:335
 msgid ""
 "All right, sparky! You&#8217;ve made it through this part of the "
 "installation. WordPress can now communicate with your database. If you are "

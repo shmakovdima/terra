@@ -2,13 +2,13 @@
 
 
 function bdconnect(){
-     $dbhost = "mysql7.000webhost.com"; 
+     $dbhost = "localhost"; 
         // Имя пользователя базы данных 
-        $dbuser = "a6980670_terfiel"; 
+        $dbuser = "fb7903js_terra"; 
         // и его пароль 
         $dbpass = "as210100"; 
         // Имя базы данных, на хостинге или локальной машине 
-    $dbname = "a6980670_terfiel"; 
+    $dbname = "fb7903js_terra"; 
 
 
     $db = @mysql_connect($dbhost, $dbuser, $dbpass) or die(mysql_error()); 

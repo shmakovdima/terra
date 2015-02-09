@@ -16,16 +16,16 @@
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define('DB_NAME', 'a6980670_terra');
+define('DB_NAME', 'fb7903js_terra');
 
 /** Имя пользователя MySQL */
-define('DB_USER', 'a6980670_terra');
+define('DB_USER', 'fb7903js_terra');
 
 /** Пароль к базе данных MySQL */
 define('DB_PASSWORD', 'as210100');
 
 /** Имя сервера MySQL */
-define('DB_HOST', 'mysql7.000webhost.com');
+define('DB_HOST', 'localhost');
 
 /** Кодировка базы данных для создания таблиц. */
 define('DB_CHARSET', 'utf8');
